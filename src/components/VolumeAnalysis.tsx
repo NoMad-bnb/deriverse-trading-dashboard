@@ -113,7 +113,7 @@ const VolumeAnalysis = () => {
               wrapperStyle={{ outline: 'none' }}
             />
             <Bar dataKey="volume" radius={[8, 8, 0, 0]}>
-              {volumeBySymbol.map((entry, index) => (
+              {volumeBySymbol.map((_, index) => (
                 <Cell 
                   key={`cell-${index}`} 
                   fill={barColor}

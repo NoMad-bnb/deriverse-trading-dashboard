@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiFilter, FiX, FiLayers, FiCalendar } from 'react-icons/fi';
+import { FiFilter, FiX, FiCalendar } from 'react-icons/fi';
 import { useTradeStore } from '../store/useTradeStore';
 import type { TradingSymbol } from '../types';
 import DateRangeModal from './DateRangeModal';

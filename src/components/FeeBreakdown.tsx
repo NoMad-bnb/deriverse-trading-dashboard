@@ -156,7 +156,7 @@ const FeeBreakdown = () => {
                     stroke={isDarkMode ? '#1F2937' : '#FFFFFF'}
                     strokeWidth={2}
                   >
-                    {feesByOrderType.map((entry, index) => (
+                    {feesByOrderType.map((_, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
@@ -234,7 +234,7 @@ const FeeBreakdown = () => {
                 wrapperStyle={{ outline: 'none' }}
               />
               <Bar dataKey="fees" radius={[8, 8, 0, 0]} label={false}>
-                {feesBySymbol.map((entry, index) => (
+                {feesBySymbol.map((_, index) => (
                   <Cell 
                     key={`cell-${index}`} 
                     fill="#EF4444"
