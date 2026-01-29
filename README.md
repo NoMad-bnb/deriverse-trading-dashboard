@@ -43,7 +43,7 @@ Currently, the dashboard is populated with static mock data from `src/data/mockT
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/deriverse-trading-dashboard.git
+    git clone https://github.com/NoMad-bnb/deriverse-trading-dashboard.git
     ```
 
 2.  **Navigate into the project directory:**
